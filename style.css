@@ -1,0 +1,126 @@
+
+Body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F3E5D8;
+    
+}
+
+.maincontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.img {
+    width: 550px;    
+    height: 250px;
+    margin-top: 20px;
+    border-radius: 10px;
+    max-width: 550px;
+    
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 550px;
+    padding: 30px;
+}
+h1, p {
+    font-family: young-serif;
+    color: black;
+}
+.prep {
+    background-color: #FFF7FC;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: young-serif;
+}
+.preps {
+    color: #6B314C;
+}
+.ul1 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.ul1 li::marker {
+    color: #6B314C; 
+}
+.Ingredients {
+    color: #794336;
+}
+.ul2 {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.ul2 li::marker {
+    color: #794336;
+}
+.instruction {
+    color: #794336;
+}
+.ol1 li::marker {
+    color: #794336;
+    font-weight: bold;
+}
+.li5 {
+    color: black;
+}
+.nut {
+    color: #794336;
+}
+table {
+    width: 100%;
+    margin: auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+ td {
+    padding: 12px;
+    border-bottom: 1px solid black;
+    font-family: young-serif;
+}
+.heightlight {
+    color: #794336;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 90%; 
+        padding: 15px; 
+    }
+
+    h1 {
+        font-size: 1.5em; 
+    }
+
+    p {
+        font-size: 1em; 
+    }
+
+    .img {
+        width: 100%; 
+        height: auto; 
+    }
+
+    .maincontainer {
+        margin: 10px; 
+    }
+
+    table {
+        font-size: 0.9em; 
+    }
+}
+
+
+
+
+
